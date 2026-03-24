@@ -26,12 +26,12 @@ try {
   $mail->CharSet = "UTF-8";
   $mail->SMTPAuth   = true;
   $mail->Host       = 'smtp.gmail.com';
-  $mail->Username   = 'blanchardwork2023@gmail.com';
-  $mail->Password   = 'putbuhzntfozbisj';
+  $mail->Username   = 'your-email@gmail.com';
+  $mail->Password   = 'your-app-password';
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
-  $mail->setFrom('blanchardwork2023@gmail.com', 'Заявка с вашего сайта');
-  $mail->addAddress('blanchardwork2023@gmail.com');
+  $mail->setFrom('your-email@gmail.com', 'Заявка с вашего сайта');
+  $mail->addAddress('your-email@gmail.com');
   $mail->isHTML(true);
   $mail->Subject = $title;
   $mail->Body = $body;
