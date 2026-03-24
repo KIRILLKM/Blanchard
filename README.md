@@ -71,6 +71,7 @@ $mail->Password   = 'your-app-password';     // Пароль или app-паро
 $mail->addAddress('your-email@gmail.com');   // Куда приходят письма
 ```
 **3. Запустите локальный сервер (например, OpenServer или MAMP) для работы PHP-обработчика форм**
-**4. 1. Откройте `index.html` в браузере**
+
+**4.Откройте `index.html` в браузере**
 
 ---
